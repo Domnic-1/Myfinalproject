@@ -1,0 +1,36 @@
+{
+  "dataset": "Tanzania primary enrollment and GDP per capita, 2001-2020",
+  "file": "tanzania_enrollment_gdp.csv",
+  "rows": 20,
+  "sources": [
+    "World Bank / UNESCO indicator SE.PRM.ENRL",
+    "World Development Indicators NY.GDP.PCAP.CD"
+  ],
+  "columns": [
+    {
+      "name": "Country Name",
+      "type": "string",
+      "description": "Name of the country (Tanzania)."
+    },
+    {
+      "name": "Country Code",
+      "type": "string",
+      "description": "ISO 3-letter country code (TZA)."
+    },
+    {
+      "name": "Year",
+      "type": "integer",
+      "description": "Calendar year of the observation, 2001-2020."
+    },
+    {
+      "name": "Primary Enrollment",
+      "type": "integer",
+      "description": "Total number of students enrolled in primary education (headcount, all genders)."
+    },
+    {
+      "name": "GDP per capita (current US$)",
+      "type": "float",
+      "description": "Gross domestic product divided by midyear population, in current US dollars, rounded to 2 decimals."
+    }
+  ]
+}
